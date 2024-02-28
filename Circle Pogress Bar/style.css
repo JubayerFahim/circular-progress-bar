@@ -1,0 +1,196 @@
+body{
+    background: #e3edf7;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill{
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.outer{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.inner{
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(255, 255, 255, 0.15),
+                0px 12px 10px -10px rgba(255, 255, 255, 0.05);
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+#number{
+    font-weight: 700;
+    color: #6c756c;
+    font-family: math;
+    font-size: 20px;
+}
+
+svg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: circ 1.5s linear forwards;
+}
+@keyframes circ{
+    100%{
+        stroke-dashoffset: 140;  
+    }
+}
+/**Second Skill */
+.skill-One{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin: 0 50px;
+}
+.outer-One{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.inner-One{
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(255, 255, 255, 0.15),
+                0px 12px 10px -10px rgba(255, 255, 255, 0.05);
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+#numberOne{
+    font-weight: 700;
+    color: #6c756c;
+    font-family: math;
+    font-size: 20px;
+}
+
+svg.smg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+circle.cicl{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animi 1.5s linear forwards;
+}
+@keyframes animi{
+    100%{
+        stroke-dashoffset: 188;  
+    }
+}
+/*3rd Skill */
+/**Second Skill */
+.skill-tree{
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.outer-tree{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.inner-tree{
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(255, 255, 255, 0.15),
+                0px 12px 10px -10px rgba(255, 255, 255, 0.05);
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+#tree{
+    font-weight: 700;
+    color: #6c756c;
+    font-family: math;
+    font-size: 20px;
+    text-align: center;
+}
+
+svg.smgtwo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+circle.cicltwo{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: three 1s linear forwards;
+}
+@keyframes three{
+    100%{
+        stroke-dashoffset: 283;
+    }
+}
+/*Mobile View */
+@media screen and (max-width:770px){
+    body{
+        display: block;
+    }
+   .skill{
+    margin: 50px 150px;
+   }
+   .skill-One{
+    margin: 50px 150px;
+   }
+   .skill-tree{
+    margin: 50px 150px;
+   }
+}
